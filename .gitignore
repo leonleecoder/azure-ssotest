@@ -1,0 +1,37 @@
+# ---- Build output ----
+[Bb]in/
+[Oo]bj/
+
+# ---- NuGet packages (restore on build) ----
+[Pp]ackages/
+!packages/repositories.config
+*.nupkg
+**/packages/*
+
+# ---- Visual Studio user-specific files ----
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# ---- Build results / temp ----
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.log
+TestResults/
+
+# ---- Secrets — DO NOT commit these ----
+# Keep your real Web.config local; commit a template instead
+Web.config
+Web.*.config
+# But allow the template:
+!Web.config.template
+
+# ---- ReSharper / other ----
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
